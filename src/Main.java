@@ -18,7 +18,7 @@ public class Main {
             return;
         }
 
-        // The
+        // Runnable tied to a lambda
         Runnable r = () -> System.out.println("Hello " + args[0] + "!");
         r.run();
     }
